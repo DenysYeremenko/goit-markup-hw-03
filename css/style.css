@@ -75,8 +75,9 @@ footer {
   padding-bottom: 94px;
 }
 
-.hidden-headers {
-  display: none;
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 
 /*--------------------------header--------------------------*/
